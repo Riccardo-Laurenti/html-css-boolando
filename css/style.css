@@ -1,5 +1,5 @@
 /* Generals*/
- {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,13 @@ body {
 .container {
     max-width: 1300px;
     margin: 100px auto;
+}
+
+/* Header*/
+
+header {
+  background-color: orange;
+  height: 90px;
 }
 
 
@@ -176,3 +183,30 @@ body {
     text-align: center;
     content: '';
   }
+
+
+
+  .hr-lines:before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+  }
+
+  .hr-lines{
+    position: relative;
+    width: px;
+  }
+
+
+  
+/* Footer*/
+
+footer {
+  background-color: black;
+  height: 90px;
+}
