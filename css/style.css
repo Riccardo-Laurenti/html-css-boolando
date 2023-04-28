@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 100px auto;
 }
 
@@ -51,14 +51,6 @@ body {
     left: ;
   }
 
-  
-/*.discount-green {
-    position: absolute;
-    top: ;
-    bottom: 30px;
-    right: ;
-    left: ;
-  } */
 
   .bg-red {
     background-color: red;
@@ -107,3 +99,80 @@ body {
 
 
 
+  .card-1:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/1b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
+
+  .card-2:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/2b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
+
+  .card-3:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/3b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
+
+  .card-4:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/4b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
+
+  .card-5:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/5b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
+
+  .card-6:hover::after {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-image: url('../img/6b.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    content: '';
+  }
