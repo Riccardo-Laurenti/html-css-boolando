@@ -6,7 +6,7 @@
 }
 
 body {
-
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
@@ -99,7 +99,7 @@ body {
 
 
 
-  .card-1:hover::after {
+  .card-1:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
@@ -109,10 +109,10 @@ body {
     background-size: cover;
     background-position: center;
     text-align: center;
-    content: '';
+    content: '.';
   }
 
-  .card-2:hover::after {
+  .card-2:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
@@ -125,7 +125,7 @@ body {
     content: '';
   }
 
-  .card-3:hover::after {
+  .card-3:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
@@ -138,7 +138,7 @@ body {
     content: '';
   }
 
-  .card-4:hover::after {
+  .card-4:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
@@ -151,7 +151,7 @@ body {
     content: '';
   }
 
-  .card-5:hover::after {
+  .card-5:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
@@ -164,7 +164,7 @@ body {
     content: '';
   }
 
-  .card-6:hover::after {
+  .card-6:hover::before {
     position: absolute;
     top:0;
     bottom: 0;
