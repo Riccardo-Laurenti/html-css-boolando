@@ -6,5 +6,89 @@
 }
 
 body {
-    background-color: red;
+
 }
+
+.container {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+
+/* Main*/
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   /*height: 500px;*/
+}
+
+
+
+.col {
+    border: 2px dashed black;
+    min-height: 50px;
+    flex-basis: calc(100% / 3 - 20px);
+    
+}
+
+.card {
+    position: relative;
+}
+
+
+#img-card-w {
+    max-width: 100%;
+    display: block;
+}
+
+.discount-red {
+    position: absolute;
+    top: ;
+    bottom: 30px;
+    right: ;
+    left: ;
+  }
+
+  
+/*.discount-green {
+    position: absolute;
+    top: ;
+    bottom: 30px;
+    right: ;
+    left: ;
+  } */
+
+  .bg-red {
+    background-color: red;
+  }
+
+  .bg-green {
+    background: green;
+  }
+
+  .tx-white-pad {
+    color: white;
+    padding: 3px 6px;
+  }
+  
+  .heart {
+    position: absolute;
+    top: 18px;
+    bottom: ;
+    right: 0;
+    left: ;
+  }
+
+
+  .heart-bg {
+    background:white;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
