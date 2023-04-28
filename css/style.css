@@ -27,7 +27,7 @@ body {
 
 
 .col {
-    border: 2px dashed black;
+   /* border: 2px dashed black; */
     min-height: 50px;
     flex-basis: calc(100% / 3 - 20px);
     
@@ -72,6 +72,14 @@ body {
     color: white;
     padding: 3px 6px;
   }
+
+  .weight-par {
+    font-weight: bold;
+  }
+
+  .red-txt-par {
+    color: red;
+  }
   
   .heart {
     position: absolute;
@@ -88,7 +96,14 @@ body {
   }
 
   p {
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 0px;
+    margin-bottom: 0px;
   }
+
+  .p-bl {
+    color:black;
+  }
+
+
 
