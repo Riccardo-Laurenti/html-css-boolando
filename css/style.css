@@ -169,7 +169,9 @@ header {
     background-position: center;
     text-align: center;
     content: '';
+    height: 91%;
   }
+
 
   .card-6:hover::before {
     position: absolute;
